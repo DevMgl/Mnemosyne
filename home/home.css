@@ -19,6 +19,19 @@
     box-shadow: 0px 2px 4px #464646;
 }
 
+.app-footer{
+    
+    height: 80px;
+    display: flex; /* Muda a orientacao para lado-a-lado */
+    align-items: center; /* Deixa o texto centralizado verticalmente */
+    justify-content: center; /* Joga os elementos para o canto */
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+    box-shadow: 0px -2px 4px #464646;
+}
+
 .links a{
 
     font-size: 30px;
@@ -36,6 +49,14 @@
 
     margin-right: 40px;
     margin-bottom: 40px;
+
+    transition: all ease 0.3s;
+}
+
+.memory-card:hover{
+
+    cursor: pointer;
+    scale: 1.05;
 }
 
 .memory-card .image{
@@ -46,4 +67,63 @@
     background-image: url("../assets/imgs/bg1.png");
     background-size: cover;
 
+}
+
+.memory-card .cinema{
+
+    height: 300px;
+    width: 300px;
+
+    background-image: url("../assets/imgs/Cinema.jpg");
+    background-size: cover;
+
+}
+
+.memory-card .inverno{
+
+    height: 300px;
+    width: 300px;
+
+    background-image: url("../assets/imgs/Inverno.jpg");
+    background-size: cover;
+
+}
+
+.memory-card .ny{
+
+    height: 300px;
+    width: 300px;
+
+    background-image: url("../assets/imgs/NY.jpg");
+    background-size: cover;
+
+}
+
+.memory-card .Tokyo{
+
+    height: 300px;
+    width: 300px;
+
+    background-image: url("../assets/imgs/Tokyo.jpg");
+    background-size: cover;
+
+}
+
+
+.memory-card h2{
+
+    font-size: 50px;
+    font-weight: normal; /* Remove o negrito */
+    color: #464646;
+}
+
+.memory-card p{
+    
+    color: #464646;
+}
+
+.memories-container{
+
+    display: flex;
+    flex-wrap: wrap;
 }
