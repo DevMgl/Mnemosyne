@@ -48,3 +48,17 @@ console.log("a + d", a + d);
 let n1 = "42";
 n1 = Number(n1);
 console.log(n1);
+
+
+/* Condicionais */
+let idade__ = 18;
+
+if (idade__ <18){
+
+    console.log("Menor de idade.");
+} else if (idade__ === 18){
+  console.log("Acabou de atingir a maioridade");
+}else{
+
+   console.log("Maior de idade");
+}

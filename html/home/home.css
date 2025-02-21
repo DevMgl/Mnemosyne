@@ -69,12 +69,12 @@
 
 }
 
-.memory-card .cinema{
+.memory-card .countdown{
 
     height: 300px;
     width: 300px;
 
-    background-image: url("../assets/imgs/Cinema.jpg");
+    background-image: url("../assets/imgs/countdown-3133_256.gif");
     background-size: cover;
 
 }
